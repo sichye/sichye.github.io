@@ -1,0 +1,15 @@
+div {
+    color: red;
+    background: #ddd;
+    margin: 50px;
+}
+
+.box {
+    width: 500px;
+    color: green;
+}
+
+#box {
+    color: yellow;
+    padding: 100px;
+}
