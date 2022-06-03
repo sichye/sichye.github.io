@@ -262,3 +262,95 @@
     margin: 0 0 0 600px;
     transform: translateX(-100%);
 }
+
+.main_content {
+    /*마진 대신 패딩으로 해야함  */
+    padding: 100px 0;
+    text-align: center;
+    margin:
+}
+
+
+.main_content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.main_content p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.main_content .container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    s
+}
+
+.main_content .container figure {
+    flex: 1;
+    overflow: hidden;
+}
+
+.main_content .container .box {
+    margin: 0 0 20px 0;
+    /* 사방으로 50px 상우하좌 */
+    border-radius: 100% 0% 53% 47% / 42% 30% 70% 58%;
+    overflow: hidden;
+}
+
+.main_content .container figure img {
+    transition: 0.5s;
+}
+
+.main_content .container figure:hover img {
+    transform: scale(1.5);
+
+}
+
+.main_content .container strong {
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+.main_content .container a {
+    display: inline-block;
+    padding: 5px 20px;
+    background: #333;
+    color: #fff;
+    border: 1px solid #f00;
+}
+
+.fixed_bg {
+    padding: 150px 0;
+    background: url(../img/mainvisual01.jpg) no-repeat fixed center center/cover;
+    filter: grayscale(1);
+    color: #fff;
+    text-align: center;
+
+}
+
+.fixed_bg h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.fixed_bg p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.fixed_bg i {
+    font-size: 20px;
+    padding: 10px;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 0 0 20px;
+    vertical-align: middle;
+}
