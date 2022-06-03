@@ -18,8 +18,33 @@ $(function () {
         autoplaySpeed: 4000,
         pauseOnHover: false,
         dots: true,
-    })
+    });
 
+    $('.product_slider').slick(
+        {
+            arrows: false,
+            slidesToShow: 5,
+            dots: true,
+        });
+
+
+    $('.product_list .arrows .left').on('click', function () {
+        $('.product_slider').slick('slickPrev')
+    });
+
+    $('.product_list .arrows .right').on('click', function () {
+        $('.product_slider').slick('slickNext')
+    });
+
+    $('#bgndVideo').YTPlayer();
+
+    $('.utb_movie .left').on('click', function () {
+        $('#bgndVideo').YTPPause();
+    });
+
+    $('.utb_movie .right').on('click', function () {
+        $('#bgndVideo').YTPPlay();
+    });
 })
 
 
